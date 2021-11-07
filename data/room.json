@@ -1,0 +1,88 @@
+{
+ "configs": [
+  "/config.live.json",
+  "/lang/lang.ru.json",
+  "socket {{ip}}:81/"
+ ],
+ "title": "Room",
+ "class":"col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6",
+ "content": [
+  {
+   "type": "h5",
+   "title": "Микроклимат",
+   "class":"alert-warning"
+  },{
+   "type": "h4",
+   "title": "Время {{time}}"
+  },
+{
+   "type": "h4",
+   "title": "Дата {{date}}"
+  },
+ {
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "Кухня",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Температура1 {{t0}}"
+  },
+ {
+   "type": "h4",
+   "title": "Влажность1 {{h0}}"
+  },{
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "Игровая",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Температура2 {{t1}}"
+  },
+ {
+   "type": "h4",
+   "title": "Влажность2 {{h1}}"
+  },{
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "Коридор",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Температура3 {{t2}}"
+  },
+ {
+   "type": "h4",
+   "title": "Влажность3 {{h2}}"
+  },{
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "2 этаж",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Температура4 {{t3}}"
+  },
+ {
+   "type": "h4",
+   "title": "Влажность4 {{h3}}"
+  },{
+   "type": "hr"
+  },{
+"type": "img",
+"state": "https://www.yr.no/sted/Russland/Sverdlovsk/Serov/meteogram.png"
+},{
+"type": "img",
+"state": "https://info.weather.yandex.net/11172/1_white.ru.png"
+}
+ ]
+}

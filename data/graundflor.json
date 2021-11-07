@@ -1,0 +1,98 @@
+{
+ "configs": [
+  "/config.live.json",
+  "/lang/lang.ru.json",
+  "socket {{ip}}:81/"
+ ],
+ "title": "Room",
+ "class":"col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6",
+ "content": [
+{
+   "type": "link",
+   "title": "Обновление",
+   "action": "/serverIndex",
+   "class": "btn btn-block btn-danger"
+  },{
+   "type": "link",
+   "title": "Главная",
+   "action": "/",
+   "class": "btn btn-block btn-danger"
+  }
+,{
+   "type": "hr"
+  },
+  {
+   "type": "h5",
+   "title": "Подвал",
+   "class":"alert-warning"
+  },{
+   "type": "h4",
+   "title": "Время {{time}}"
+  },
+{
+   "type": "h4",
+   "title": "Дата {{date}}"
+  },
+ {
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "Климат",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Температура {{t0}}"
+  },
+ {
+   "type": "h4",
+   "title": "Влажность {{h0}}"
+  },{
+   "type": "hr"
+  }, {
+   "type": "h5",
+   "title": "Уровни",
+   "class":"alert-warning"
+  },
+{
+   "type": "h4",
+   "title": "Нижний Уровень - {{l11}} - Счётчик {{lLcoun}} - {{lLow}}"
+  },
+ {
+   "type": "h4",
+   "title": "Верхний Уровень - {{l22}} - Счётчик {{lHcoun}} - {{lHigh}}"
+  }, {
+   "type": "h4",
+   "title": "Аварийный Уровень - {{l33}} - Счётчик {{lWcoun}} - {{lWar}}"
+  },{
+   "type": "hr"
+  },{
+  "type": "button",
+  "title": "Насос - {{pump_Name}}",
+  "action": "pump",
+"class": "btn btn-block btn-info"
+},
+{
+   "type": "h4",
+   "title": "инфо {{linfo}}"
+  },{
+  "type": "button",
+  "title": "Relay1 - {{r1_Name}}",
+  "action": "relay1",
+"class": "btn btn-block btn-info"
+},{
+  "type": "button",
+  "title": "Relay2 - {{r2_Name}}",
+  "action": "relay2",
+"class": "btn btn-block btn-info"
+},{
+   "type": "hr"
+  },{
+"type": "img",
+"state": "https://www.yr.no/sted/Russland/Sverdlovsk/Serov/meteogram.png"
+},{
+"type": "img",
+"state": "https://info.weather.yandex.net/11172/1_white.ru.png"
+}
+ ]
+}
